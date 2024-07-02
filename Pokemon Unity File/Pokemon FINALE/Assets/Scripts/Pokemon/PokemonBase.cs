@@ -3,31 +3,72 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Pokemon", menuName = "Pokemon/Create new pokemon")]
-public class Pokemon : ScriptableObject
+public class PokemonBase : ScriptableObject
+{
+    [SerializeField] string name;
 
-    // Start is called before the first frame update
+    [TextArea]
+    [SerializeField] string description;
+
+    [SerializeField] Sprite frontSprite;
+    [SerializeField] Sprite backSprite;
+
+    [SerializeField] PokemonType type1;
+    [SerializeField] PokemonType type2;
+
+    [SerializeField] int maxHp;
+    [SerializeField] int attack;
+    [SerializeField] int spattack;
+    [SerializeField] int defense;
+    [SerializeField] int spdefense;
+    [SerializeField] int speed;
+
+    // Base Stats
+    public int MaxHp
     {
-        [SerializeField] string name;
-        
-        [TextArea]
-        [SerializeField] string description;
-
-        [SerializeField] Sprite frontSprite;
-        [SerializeField] Sprite backSprite;
-
-        [SerializeField] PokemonType type1;
-        [SerializeField] PokemonType type2;
-
-        //Base Stats
-        [SerializeField] int maxHP;
-        [SerializeField] int attack;
-        [SerializeField] int defense;
-        [SerializeField] int spAttack;
-        [SerializeField] int spDefense;
-        [SerializeField] int speed;
-
+        get { return maxHp; }
     }
 
+    public int Attack
+    {
+        get { return attack; }
+    }
+
+    public int SpAttack
+    {
+        get { return spattack; }
+    }
+
+    public int Defense
+    {
+        get { return defense; }
+    }
+
+    public int SpDefense
+    {
+        get { return spdefense; }
+    }
+
+    public int Speed
+    {
+        get { return speed; }
+    }
+
+    public string GetName()
+    {
+        return name;
+    }
+
+    public string Description
+    {
+        get { return description; }
+    }
+
+    public string Name
+    {
+        get { return name; }
+    }
+}
 
 public enum PokemonType
 {
