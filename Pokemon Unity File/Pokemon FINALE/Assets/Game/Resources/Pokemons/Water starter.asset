@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4eb9fcf149500034f94599de521e9ee8, type: 3}
-  m_Name: Charmander
+  m_Name: Water starter
   m_EditorClassIdentifier: 
   name: 
   description: 
-  frontSprite: {fileID: 21300000, guid: 7711e46f973de354486a32a3f55d87b6, type: 3}
-  backSprite: {fileID: 21300000, guid: 364a55e0dc9b80c4ab6da2e65d21ade6, type: 3}
-  type1: 2
+  frontSprite: {fileID: 21300000, guid: 61701c20a948d2e44bb3da060514a6ae, type: 3}
+  backSprite: {fileID: 0}
+  type1: 0
   type2: 0
-  maxHP: 39
-  attack: 52
-  defense: 43
-  spAttack: 60
-  spDefense: 50
-  speed: 65
+  maxHp: 0
+  attack: 48
+  spattack: 0
+  defense: 65
+  spdefense: 0
+  speed: 43

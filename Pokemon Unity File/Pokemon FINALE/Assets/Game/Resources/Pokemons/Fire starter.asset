@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4eb9fcf149500034f94599de521e9ee8, type: 3}
-  m_Name: Bulbasaur
+  m_Name: Fire starter
   m_EditorClassIdentifier: 
-  name: Bulbasaur
+  name: 
   description: 
-  frontSprite: {fileID: 21300000, guid: 71f42bae1268eac4f982a2f9d10bb132, type: 3}
-  backSprite: {fileID: 21300000, guid: d9cd67a72e632d04fab415a292439124, type: 3}
-  type1: 5
-  type2: 8
-  maxHP: 45
-  attack: 49
-  defense: 49
-  spAttack: 65
-  spDefense: 65
-  speed: 45
+  frontSprite: {fileID: 21300000, guid: 230e94034dd7f3e4b9e257620f8731b5, type: 3}
+  backSprite: {fileID: 21300000, guid: 364a55e0dc9b80c4ab6da2e65d21ade6, type: 3}
+  type1: 2
+  type2: 0
+  maxHp: 0
+  attack: 52
+  spattack: 0
+  defense: 43
+  spdefense: 0
+  speed: 65
