@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4eb9fcf149500034f94599de521e9ee8, type: 3}
+  m_Name: Fire starter
+  m_EditorClassIdentifier: 
+  name: 
+  description: 
+  frontSprite: {fileID: 21300000, guid: 230e94034dd7f3e4b9e257620f8731b5, type: 3}
+  backSprite: {fileID: 21300000, guid: 364a55e0dc9b80c4ab6da2e65d21ade6, type: 3}
+  type1: 2
+  type2: 0
+  maxHp: 0
+  attack: 52
+  spattack: 0
+  defense: 43
+  spdefense: 0
+  speed: 65
