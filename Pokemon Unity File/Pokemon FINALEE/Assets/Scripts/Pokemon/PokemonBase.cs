@@ -5,17 +5,15 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Pokemon", menuName = "Pokemon/Create new pokemon")]
 public class PokemonBase : ScriptableObject
 {
-    [SerializeField] string PokemonBasename;
-
+    [SerializeField] string pokemonBaseName;  // Corrected field name casing
     [TextArea]
     [SerializeField] string description;
-
     [SerializeField] Sprite frontSprite;
     [SerializeField] Sprite backSprite;
-
     [SerializeField] PokemonType type1;
     [SerializeField] PokemonType type2;
 
+    // Base Stats
     [SerializeField] int maxHp;
     [SerializeField] int attack;
     [SerializeField] int spattack;
@@ -23,7 +21,8 @@ public class PokemonBase : ScriptableObject
     [SerializeField] int spdefense;
     [SerializeField] int speed;
 
-    // Base Stats
+    [SerializeField] List<LearnableMove> learnableMoves;
+
     public int MaxHp
     {
         get { return maxHp; }
@@ -56,7 +55,7 @@ public class PokemonBase : ScriptableObject
 
     public string GetName()
     {
-        return name;
+        return pokemonBaseName;  // Updated to match field
     }
 
     public string Description
@@ -64,9 +63,26 @@ public class PokemonBase : ScriptableObject
         get { return description; }
     }
 
-    public string Name
+    public List<LearnableMove> LearnableMoves
     {
-        get { return name; }
+        get { return learnableMoves; }
+    }
+}
+
+[System.Serializable]
+public class LearnableMove
+{
+    [SerializeField] MoveBase moveBase;
+    [SerializeField] int level;
+
+    public MoveBase MoveBase
+    {
+        get { return moveBase; }
+    }
+
+    public int Level
+    {
+        get { return level; }
     }
 }
 
