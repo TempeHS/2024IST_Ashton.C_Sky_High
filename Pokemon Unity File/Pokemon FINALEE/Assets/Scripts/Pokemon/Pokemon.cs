@@ -4,13 +4,32 @@ using UnityEngine;
 
 public class Pokemon
 {
-    PokemonBase _base;
-    int level;
+    private PokemonBase _base; // Made private to follow convention
+    private int level;
+
+    public int HP { get; set; }
+    public List<Move> Moves { get; set; }
 
     public Pokemon(PokemonBase pBase, int pLevel)
     {
         _base = pBase;
         level = pLevel;
+        HP = MaxHp; // Using MaxHp property to initialize HP
+
+        // Generate moves
+        Moves = new List<Move>();
+        foreach (var move in _base.LearnableMoves)
+        {
+            if (move.Level <= level)
+            {
+                Moves.Add(new Move(move.MoveBase, move.MoveBase.PP)); // Correctly initialize PP
+            }
+
+            if (Moves.Count >= 4)
+            {
+                break;
+            }
+        }
     }
 
     public int Attack
