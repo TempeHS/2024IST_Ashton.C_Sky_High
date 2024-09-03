@@ -5,14 +5,14 @@ using UnityEngine.UI;
 
 public class BattleHud : MonoBehaviour
 {
-    [SerializeField] Text nameText;
-    [SerializeField] Text levelText;
-    [SerializeField] HPBar hpBar;
+    [SerializeField] private Text nameText;
+    [SerializeField] private Text levelText;
+    [SerializeField] private HPBar hpBar;
 
     public void SetData(Pokemon pokemon)
     {
-      nameText.text = pokemon.Base.Name;
-      levelText.text = "Lvl" + pokemon.Level;
-      hpBar.SetHP((float) pokemon.HP / pokemon.MaxHp);
+        nameText.text = pokemon.Base.Name; 
+        levelText.text = "Lvl " + pokemon.Level;
+        hpBar.SetHP((float)pokemon.HP / pokemon.MaxHp); // This will call the SetHP method in HPBar
     }
 }

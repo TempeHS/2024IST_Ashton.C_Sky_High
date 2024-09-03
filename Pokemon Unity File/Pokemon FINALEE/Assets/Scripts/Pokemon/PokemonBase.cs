@@ -5,23 +5,23 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "Pokemon", menuName = "Pokemon/Create new pokemon")]
 public class PokemonBase : ScriptableObject
 {
-    [SerializeField] string pokemonBaseName;  // Corrected field name casing
+    [SerializeField] private string pokemonBaseName;  // Corrected field name casing
     [TextArea]
-    [SerializeField] string description;
-    [SerializeField] Sprite frontSprite;
-    [SerializeField] Sprite backSprite;
-    [SerializeField] PokemonType type1;
-    [SerializeField] PokemonType type2;
+    [SerializeField] private string description;
+    [SerializeField] private Sprite frontSprite;
+    [SerializeField] private Sprite backSprite;
+    [SerializeField] private PokemonType type1;
+    [SerializeField] private PokemonType type2;
 
     // Base Stats
-    [SerializeField] int maxHp;
-    [SerializeField] int attack;
-    [SerializeField] int spattack;
-    [SerializeField] int defense;
-    [SerializeField] int spdefense;
-    [SerializeField] int speed;
+    [SerializeField] private int maxHp;
+    [SerializeField] private int attack;
+    [SerializeField] private int spattack;
+    [SerializeField] private int defense;
+    [SerializeField] private int spdefense;
+    [SerializeField] private int speed;
 
-    [SerializeField] List<LearnableMove> learnableMoves;
+    [SerializeField] private List<LearnableMove> learnableMoves;
 
     public int MaxHp
     {
@@ -53,9 +53,9 @@ public class PokemonBase : ScriptableObject
         get { return speed; }
     }
 
-    public string GetName()
+    public string Name  // Added the Name property
     {
-        return pokemonBaseName;  // Updated to match field
+        get { return pokemonBaseName; }  // Return the field containing the name
     }
 
     public string Description
@@ -72,8 +72,8 @@ public class PokemonBase : ScriptableObject
 [System.Serializable]
 public class LearnableMove
 {
-    [SerializeField] MoveBase moveBase;
-    [SerializeField] int level;
+    [SerializeField] private MoveBase moveBase;
+    [SerializeField] private int level;
 
     public MoveBase MoveBase
     {
@@ -103,5 +103,5 @@ public enum PokemonType
     Bug,
     Rock,
     Ghost,
-    Dragon,
+    Dragon
 }
