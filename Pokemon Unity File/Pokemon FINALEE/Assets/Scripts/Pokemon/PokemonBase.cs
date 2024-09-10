@@ -23,6 +23,7 @@ public class PokemonBase : ScriptableObject
 
     [SerializeField] private List<LearnableMove> learnableMoves;
 
+// Make the sprites public //
     public Sprite FrontSprite; 
     public Sprite BackSprite; 
 
