@@ -23,6 +23,9 @@ public class PokemonBase : ScriptableObject
 
     [SerializeField] private List<LearnableMove> learnableMoves;
 
+    public Sprite FrontSprite; 
+    public Sprite BackSprite; 
+
     public int MaxHp
     {
         get { return maxHp; }
@@ -55,7 +58,7 @@ public class PokemonBase : ScriptableObject
 
     public string Name  // Added the Name property
     {
-        get { return pokemonBaseName; }  // Return the field containing the name
+        get { return pokemonBaseName; }
     }
 
     public string Description
@@ -86,7 +89,7 @@ public class LearnableMove
     }
 }
 
-public enum PokemonType
+public enum PokemonType  
 {
     None,
     Normal,

@@ -1,22 +1,28 @@
-using System.Collection;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BattleUnit : MonoBehaviour 
+public class BattleUnit : MonoBehaviour
 {
-    [SerializeField] Pokemonbase _base;
-    [SerializeField] int level;
-    [SerializeField] isPlayerUnit;
+    [SerializeField] private PokemonBase _base;  // Private serialized field
+    [SerializeField] private int level;
+    [SerializeField] private bool isPlayerUnit;  // Bool to check if this is the player's unit
 
-    public Pokemon pokemon { get; set;}
+    public Pokemon pokemon { get; set; }
 
     public void Setup()
     {
         pokemon = new Pokemon(_base, level);
-        if (isPlayerUnit) 
-        GetComponent<Image>().sprite = pokemon.Base.BackSprite;
+
+        // Set the sprite based on whether it's a player unit or not
+        if (isPlayerUnit)
+        {
+            GetComponent<Image>().sprite = pokemon.Base.BackSprite;  // Use BackSprite for the player
+        }
         else
-        GetComponent<Image>().sprite = pokemon.Base.FrontSprite;
+        {
+            GetComponent<Image>().sprite = pokemon.Base.FrontSprite; // Use FrontSprite for the opponent
+        }
     }
 }
