@@ -26,6 +26,7 @@ public class PokemonBase : ScriptableObject
 // Make the sprites public //
     public Sprite FrontSprite; 
     public Sprite BackSprite; 
+    
 
     public int MaxHp
     {

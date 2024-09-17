@@ -18,11 +18,11 @@ public class BattleUnit : MonoBehaviour
         // Set the sprite based on whether it's a player unit or not
         if (isPlayerUnit)
         {
-            GetComponent<Image>().sprite = pokemon.Base.BackSprite;  // Use BackSprite for the player
+            GetComponent<Image>().sprite = pokemon.Base.BackSprite;  
         }
         else
         {
-            GetComponent<Image>().sprite = pokemon.Base.FrontSprite; // Use FrontSprite for the opponent
+            GetComponent<Image>().sprite = pokemon.Base.FrontSprite; 
         }
     }
 }
