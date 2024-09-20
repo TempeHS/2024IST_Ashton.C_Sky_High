@@ -5,15 +5,20 @@ using UnityEngine.UI;
 
 public class BattleDialogBox : MonoBehaviour
 {
-    [SerializeField] private Text dialogText;
-    [SerializeField] private float typingSpeed = 0.05f;
-    [SerializeField] private GameObject actionSelector;
-    [SerializeField] private GameObject moveSelector;
-    [SerializeField] private GameObject moveDetails;
-    [SerializeField] private List<Text> actionTexts;
-    [SerializeField] private List<Text> moveTexts;
-    [SerializeField] private Text ppText;
-    [SerializeField] private Text typeText;
+    [SerializeField] int lettersPerSecond;
+    [SerializeField] Color highlightedColor;
+    [SerializeField] Text dialogText;
+    [SerializeField] GameObject actionSelector;
+    [SerializeField] GameObject moveSelector;
+    [SerializeField] GameObject moveDetails;
+
+    [SerializeField] List<Text> actionTexts;
+    [SerializeField] List<Text> moveTexts;
+
+    [SerializeField] Text ppText;
+    [SerializeField] Text typeText;
+
+
 
     /// <summary>
     /// Displays the dialog instantly (without typing effect).
@@ -39,7 +44,15 @@ public class BattleDialogBox : MonoBehaviour
     }
 
     /// <summary>
-    /// Toggles visibility of the action selector UI.
+    /// Enable or disable the dialog text.
+    /// </summary>
+    public void EnableDialogText(bool enabled)
+    {
+        dialogText.enabled = enabled;
+    }
+
+    /// <summary>
+    /// Enable or disable the action selector UI.
     /// </summary>
     public void EnableActionSelector(bool enabled)
     {
@@ -47,7 +60,7 @@ public class BattleDialogBox : MonoBehaviour
     }
 
     /// <summary>
-    /// Toggles visibility of the move selector UI.
+    /// Enable or disable the move selector UI.
     /// </summary>
     public void EnableMoveSelector(bool enabled)
     {
@@ -86,11 +99,17 @@ public class BattleDialogBox : MonoBehaviour
         typeText.text = move.Base.Type.ToString();
     }
 
-    /// <summary>
-    /// Enables or disables the dialog text box.
-    /// </summary>
-    public void EnableDialogText(bool enabled)
+    // Public getter to expose actionTexts count for BattleSystem.cs
+    public int GetActionTextCount()
     {
-        dialogText.enabled = enabled;
+        return actionTexts.Count;
+    }
+
+    public void UpdateActionSelection()
+    {
+        for (int i=0; i < actionTexts.Count; ++i)
+        {
+            if (i == selectedAcion);
+        }
     }
 }

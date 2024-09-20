@@ -25,24 +25,16 @@ public class BattleSystem : MonoBehaviour
         // Initial setup for the player and enemy Pokémon
         playerUnit.Setup();
         enemyUnit.Setup();
-
-        // Set HUD data for player and enemy units
         playerHud.SetData(playerUnit.pokemon);
         enemyHud.SetData(enemyUnit.pokemon);
 
         // Show the introductory dialog for battle
-        yield return dialogBox.TypeDialog($"A wild {enemyUnit.pokemon.Base.Name} appeared!");
+        yield return dialogBox.TypeDialog($"A wild {playerUnit.pokemon.Base.Name} appeared!");
         yield return new WaitForSeconds(1f);  // Wait for 1 second before proceeding to the next dialog
 
-        // Show the player action dialog
-        yield return dialogBox.TypeDialog($"Go, {playerUnit.pokemon.Base.Name}!");
-
-        // Wait for 1 second before transitioning to the PlayerAction state
-        yield return new WaitForSeconds(1f);
-
-        // Move to Player Action state
-        PlayerAction();
+    PlayerAction();
     }
+    
 
     void PlayerAction()
     {
