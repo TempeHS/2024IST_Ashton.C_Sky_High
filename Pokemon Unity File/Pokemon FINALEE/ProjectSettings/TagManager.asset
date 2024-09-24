@@ -13,9 +13,9 @@ TagManager:
   - Water
   - UI
   - Ground
-  - Player
+  - Si
   - OneWayPlatform
-  - 
+  - Signs
   - 
   - 
   - 
@@ -50,4 +50,7 @@ TagManager:
     locked: 0
   - name: Player
     uniqueID: 2176923071
+    locked: 0
+  - name: Signs
+    uniqueID: 975140875
     locked: 0
