@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1e9126f56607fad4989f904314eea507
+guid: 88199beb1cad25e4fabbf4695525f964
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -82,19 +82,6 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -123,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: long grass tile (64x64)_0
+      name: bc92a54fd52558c950378140d66059e3__1_-removebg-preview_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 48
-        width: 16
-        height: 16
+        y: 137
+        width: 132
+        height: 130
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a209ac4f9b80c64d9f832a50e62c7f2
-      internalID: -903871542
+      spriteID: 8898fe38766eae34099c76206e8df364
+      internalID: 556842833
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: long grass tile (64x64)_1
+      name: bc92a54fd52558c950378140d66059e3__1_-removebg-preview_1
       rect:
         serializedVersion: 2
-        x: 16
-        y: 48
-        width: 16
-        height: 16
+        x: 132
+        y: 137
+        width: 132
+        height: 130
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b0e7ba26d1ac6a48a00f8bfd2eed6f0
-      internalID: 886377677
+      spriteID: be19aeaaad7176346b886b10a52d3dee
+      internalID: 1409006209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: long grass tile (64x64)_2
+      name: bc92a54fd52558c950378140d66059e3__1_-removebg-preview_2
       rect:
         serializedVersion: 2
-        x: 32
-        y: 48
-        width: 16
-        height: 16
+        x: 264
+        y: 137
+        width: 132
+        height: 130
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b812885a865382b48a9a4eb0b0fc07fc
-      internalID: -2034504964
+      spriteID: c7ab862a2e045e647a42147066c89da7
+      internalID: -330560933
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: long grass tile (64x64)_3
+      name: bc92a54fd52558c950378140d66059e3__1_-removebg-preview_3
       rect:
         serializedVersion: 2
-        x: 48
-        y: 48
-        width: 16
-        height: 16
+        x: 396
+        y: 137
+        width: 132
+        height: 130
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 10498849b3db6eb48b90b1a21bdea9a0
-      internalID: 1709564799
+      spriteID: 07ffbe71e2f29804da90a32974ff08a1
+      internalID: -607782552
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: long grass tile (64x64)_4
+      name: bc92a54fd52558c950378140d66059e3__1_-removebg-preview_4
       rect:
         serializedVersion: 2
-        x: 0
-        y: 32
-        width: 16
-        height: 16
+        x: 528
+        y: 137
+        width: 132
+        height: 130
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +208,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6b9e01c86addc9042acde74c826107a6
-      internalID: 293317498
+      spriteID: 59b8e2d4398e4534782bd46380b1e972
+      internalID: -323346703
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: long grass tile (64x64)_5
+      name: bc92a54fd52558c950378140d66059e3__1_-removebg-preview_5
       rect:
         serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 16
+        x: 660
+        y: 137
+        width: 132
+        height: 130
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +229,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0c8ea2a359e937740be2291c05ba28b7
-      internalID: -617032387
+      spriteID: 2f448ee01c2c5cb4b8177fe4de1ac9ba
+      internalID: 35938009
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: long grass tile (64x64)_6
+      name: bc92a54fd52558c950378140d66059e3__1_-removebg-preview_6
       rect:
         serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 16
+        x: 792
+        y: 137
+        width: 132
+        height: 130
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,41 +250,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 63730bbe27b2217498ed530b149c4090
-      internalID: 1246341136
+      spriteID: 67dd09943a3fa0c4395419a0d142384e
+      internalID: -612874049
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: long grass tile (64x64)_7
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: da14ba89c19fdb146a1d98b0578c4685
-      internalID: -972371202
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: long grass tile (64x64)_8
+      name: bc92a54fd52558c950378140d66059e3__1_-removebg-preview_7
       rect:
         serializedVersion: 2
         x: 0
-        y: 16
-        width: 16
-        height: 16
+        y: 7
+        width: 132
+        height: 130
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +271,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8de744e22fe174145ac5ae7666db0040
-      internalID: -817924067
+      spriteID: 374f96095d223794cb7ba140422b8c1b
+      internalID: -1473970486
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: long grass tile (64x64)_9
+      name: bc92a54fd52558c950378140d66059e3__1_-removebg-preview_8
       rect:
         serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
+        x: 132
+        y: 7
+        width: 132
+        height: 130
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -326,20 +292,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e6dc6da077d0e843b6af8839ba59ab6
-      internalID: -1028414014
+      spriteID: c7a52f95900645b4ab2dbf808c864961
+      internalID: -2126646217
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: long grass tile (64x64)_10
+      name: bc92a54fd52558c950378140d66059e3__1_-removebg-preview_9
       rect:
         serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 16
+        x: 264
+        y: 7
+        width: 132
+        height: 130
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -347,20 +313,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ff5b2ac0003a5f44a5da4ebf76418b0
-      internalID: 1827047760
+      spriteID: 61feb6b3fe5ec894a9fbbc8857e506dc
+      internalID: -957186034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: long grass tile (64x64)_11
+      name: bc92a54fd52558c950378140d66059e3__1_-removebg-preview_10
       rect:
         serializedVersion: 2
-        x: 48
-        y: 16
-        width: 16
-        height: 16
+        x: 396
+        y: 7
+        width: 132
+        height: 130
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,92 +334,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0ef5b9f1a69384a41a395f4ff09db688
-      internalID: 2065273416
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: long grass tile (64x64)_12
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a1cd7496199ab0841ae2b980bc2bd494
-      internalID: -982254907
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: long grass tile (64x64)_13
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a0419b97db6fbe43958988c9a73ea5c
-      internalID: -2136532896
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: long grass tile (64x64)_14
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 852bc36dae39fe64e9696312a0284474
-      internalID: 1037966702
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: long grass tile (64x64)_15
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e4c998b553df4c47996d92574957373
-      internalID: -1286721264
+      spriteID: fdf8d0639d29c0d4e913b8dc6f8d188f
+      internalID: 1234360218
       vertices: []
       indices: 
       edges: []
@@ -469,22 +351,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      long grass tile (64x64)_0: -903871542
-      long grass tile (64x64)_1: 886377677
-      long grass tile (64x64)_10: 1827047760
-      long grass tile (64x64)_11: 2065273416
-      long grass tile (64x64)_12: -982254907
-      long grass tile (64x64)_13: -2136532896
-      long grass tile (64x64)_14: 1037966702
-      long grass tile (64x64)_15: -1286721264
-      long grass tile (64x64)_2: -2034504964
-      long grass tile (64x64)_3: 1709564799
-      long grass tile (64x64)_4: 293317498
-      long grass tile (64x64)_5: -617032387
-      long grass tile (64x64)_6: 1246341136
-      long grass tile (64x64)_7: -972371202
-      long grass tile (64x64)_8: -817924067
-      long grass tile (64x64)_9: -1028414014
+      bc92a54fd52558c950378140d66059e3__1_-removebg-preview_0: 556842833
+      bc92a54fd52558c950378140d66059e3__1_-removebg-preview_1: 1409006209
+      bc92a54fd52558c950378140d66059e3__1_-removebg-preview_10: 1234360218
+      bc92a54fd52558c950378140d66059e3__1_-removebg-preview_2: -330560933
+      bc92a54fd52558c950378140d66059e3__1_-removebg-preview_3: -607782552
+      bc92a54fd52558c950378140d66059e3__1_-removebg-preview_4: -323346703
+      bc92a54fd52558c950378140d66059e3__1_-removebg-preview_5: 35938009
+      bc92a54fd52558c950378140d66059e3__1_-removebg-preview_6: -612874049
+      bc92a54fd52558c950378140d66059e3__1_-removebg-preview_7: -1473970486
+      bc92a54fd52558c950378140d66059e3__1_-removebg-preview_8: -2126646217
+      bc92a54fd52558c950378140d66059e3__1_-removebg-preview_9: -957186034
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
