@@ -1,86 +1,59 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
-public class PlayerController : MonoBehaviour
+public class MovementController : MonoBehaviour
 {
-    public float moveSpeed;
-    public LayerMask solidObjectsLayer;
-    public LayerMask grassLayer;
+    private float horizontal;
+    private float speed = 8f;
+    private float jumpingPower = 16f;
+    private bool isFacingRight = true;
 
-    private bool isMoving;
-    private Vector2 input;
-
-    private Animator animator;
-    private void Awake()
-    {
-        animator = GetComponent<Animator>();
-    }
-
-    void Start()
-    {
-        // Initialization if needed
-        // moveSpeed = 5f; // Example initialization
-    }
+    [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private Transform groundCheck;
+    [SerializeField] private LayerMask groundLayer; // Fixed "Layermask" typo
 
     // Update is called once per frame
-    private void Update()
+    void Update()
     {
-        if (!isMoving)
+        horizontal = Input.GetAxisRaw("Horizontal");
+
+        // Removed semicolon after if condition and fixed the velocity setting syntax
+        if (Input.GetButtonDown("Jump") && IsGrounded())
         {
-            input.x = Input.GetAxisRaw("Horizontal");
-            input.y = Input.GetAxisRaw("Vertical");
-
-            if (input != Vector2.zero)
-            {
-                animator.SetFloat("moveX", input.x);
-                animator.SetFloat("moveY", input.y);
-                 
-                var targetPos = transform.position;
-                targetPos.x += input.x;
-                targetPos.y += input.y;
-
-                if (IsWalkable(targetPos))
-                {
-                    StartCoroutine(Move(targetPos));
-                }
-            }
+            rb.velocity = new Vector2(rb.velocity.x, jumpingPower);
         }
-        animator.SetBool("isMoving", isMoving);
+
+        // Removed semicolon after if condition
+        if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
+        {
+            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 1.75f);
+        }
+
+        Flip();
     }
 
-    IEnumerator Move(Vector3 targetPos)
+    private void FixedUpdate()
     {
-        isMoving = true;
-
-        while ((targetPos - transform.position).sqrMagnitude > Mathf.Epsilon)
-        {
-            transform.position = Vector3.MoveTowards(transform.position, targetPos, moveSpeed * Time.deltaTime);
-            yield return null;
-        }
-        transform.position = targetPos;
-
-        isMoving = false;
-
-        CheckForEncounters();
+        rb.velocity = new Vector2(horizontal * speed, rb.velocity.y);
     }
 
-    private bool IsWalkable(Vector3 targetPos)
+    private bool IsGrounded()
     {
-        if (Physics2D.OverlapCircle(targetPos, 0.2f, solidObjectsLayer) != null)
+        // Added radius for the ground check collider
+        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, groundLayer);
+    }
+
+    private void Flip()
+    {
+        // Corrected the flip condition to handle both left and right movement
+        if (isFacingRight && horizontal < 0f || !isFacingRight && horizontal > 0f)
         {
-            return false;
+            isFacingRight = !isFacingRight;
+            Vector3 localScale = transform.localScale;
+            localScale.x *= -1f;
+            transform.localScale = localScale; // Fixed "localSccale" typo
         }
-        return true;
-    } 
-     private void CheckForEncounters()
-    {
-       if (Physics2D.OverlapCircle(transform.position, 0.2f, grassLayer) != null)
-       {
-          if (Random.Range(1, 101) <= 10)
-          {
-            Debug.Log(" Encountered a wild Pokemon! ");
-          }
-       }
     }
 }
