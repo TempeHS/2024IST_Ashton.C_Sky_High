@@ -28,7 +28,7 @@ public class MovementController : MonoBehaviour
         // Removed semicolon after if condition
         if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
         {
-            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 1.75f);
+            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 1.5f);
         }
 
         Flip();
