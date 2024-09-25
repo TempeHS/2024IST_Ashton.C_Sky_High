@@ -2,25 +2,33 @@
 <h1 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/97361059-45151700-185c-11eb-9d12-dae51c79eb8a.png">
   <br />
- 2024IST_Oliver.M_
+ 2024IST_Ashton.C_Sky_High
 </h1>
 
 # Overview
 
-yadayada
+weawdwdwfwefew
 
 # Walkthrough
 
 [video link]
 
-# Tutorials
+# User Control Guide
 
-![The control scheme of my game for an xbox controller]("https://github.com/Swebwite/My%20project/Assets/Sprites/Control%20Scheme.png")
+### Keyboard & Mouse
+A & E to move left and right
+
+### Controller
+
+# Scripting Editing Software
+
+# Scripts
+
 
 # Documentation
 
 ### User Documentation
-
+Testing 123
 ### Developer Documentation
 A little explination on how I made the game and the skills I aquired.
 
