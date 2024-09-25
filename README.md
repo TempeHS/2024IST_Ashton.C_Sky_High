@@ -2,11 +2,12 @@
 <h1 align="center">
  <img src="https://user-images.githubusercontent.com/45159366/97361059-45151700-185c-11eb-9d12-dae51c79eb8a.png">
   <br />
- 2024IST_Ashton.C_Sky_High_
+ 2024IST_Oliver.M_
 </h1>
 
-# Statement Of Intent
-I intended to create a competitive game or a speedrun type of game. Similair to "Going Up!" The goal of the game is to go up and reach the checkpoint.
+# Overview
+
+yadayada
 
 # Walkthrough
 
@@ -18,10 +19,14 @@ I intended to create a competitive game or a speedrun type of game. Similair to 
 
 # Documentation
 
+### User Documentation
+
+### Developer Documentation
 A little explination on how I made the game and the skills I aquired.
 
 # Collaboration
 
-Sam the multimedia partner
+Serena Lai Multimedia partner
+Created: GFX, Audio and animations
 [add media examples]
 
