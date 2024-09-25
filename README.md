@@ -5,17 +5,8 @@
  2024IST_Ashton.C_Sky_High_
 </h1>
 
-# Table of Contents
-
-1. [Overview](https://github.com/TempeHS/2024IST_Jasper.L_?tab=readme-ov-file#overview)
-2. [Walkthrough](https://github.com/TempeHS/2024IST_Jasper.L_?tab=readme-ov-file#walkthrough)
-3. [Tutorials](https://github.com/TempeHS/2024IST_Jasper.L_?tab=readme-ov-file#tutorials)
-4. [Documentation](https://github.com/TempeHS/2024IST_Jasper.L_?tab=readme-ov-file#documentation)
-5. [Collaboration](https://github.com/TempeHS/2024IST_Jasper.L_?tab=readme-ov-file#collaboration)
-
-# Overview
-
-yadayada
+# Statement Of Intent
+I intended to create a competitive game or a speedrun type of game. Similair to "Going Up!" The goal of the game is to go up and reach the checkpoint.
 
 # Walkthrough
 
