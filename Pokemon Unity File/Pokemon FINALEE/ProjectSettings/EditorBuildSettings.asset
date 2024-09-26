@@ -12,9 +12,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Main_Menu.unity
     guid: 3656120828983a64dba3e94ae583a337
   - enabled: 1
-    path: Assets/Scenes/Pokemon Scene.unity
+    path: Assets/Scenes/Tutorial.unity
     guid: c0a0035269643384f854783d66f87064
   - enabled: 1
-    path: Assets/Scenes/LEVEL 3.unity
+    path: Assets/Scenes/LEVEL 1.unity
+    guid: 446f8bbc7fbf97b48976c71d931c5b68
+  - enabled: 1
+    path: Assets/Scenes/LEVEL 2.unity
     guid: ecd17be28e3df354e8c1a5ab27d7db1b
   m_configObjects: {}
