@@ -48,11 +48,21 @@ In the end, though, I focused more on parkour instead of adding enemies or visua
 
 I used [these tutorials](https://www.youtube.com/watch?v=TYg07K-5ONU&list=PLyHH_4nd7MkI-jgXnEw3nSVzAqeftSSyM) for many of the features in the game. They were helpful, especially for basic movement code, as I was still learning C# and Unity. The tutorials were easy to follow, and I adjusted the code to fit what I needed for the game.
 
-## Movement and Jumping
+### Movement and Jumping
 
 Movement and jumping were the first things I added to the game. I followed the tutorials closely and didn’t have much trouble. Most of the issues I had were small mistakes like typos, which were easy to fix.
 
+### Dashing
 
+Dashing was the second thing I worked on, as I thought it would be a good idea to add to make the parkour game more complex and challenging. The main issue I faced was deciding whether or not to include a visual trail during the dash.
+
+### One Way Platforms
+
+One way platforms are one of the most frequently used elements in the game. I used them to help players go higher and to increase the challenge, giving a sense of climbing toward the sky to suit the game’s theme.
+
+### Falling Platforms
+
+Falling platforms add an extra level of difficulty and excitement. When the player steps on these platforms, they fall after a short delay, forcing the player to move quickly and plan their jumps. This mechanic was added to keep the gameplay dynamic and unpredictable, increasing the tension as the player progresses through the levels.
 
 # Scripts
 
