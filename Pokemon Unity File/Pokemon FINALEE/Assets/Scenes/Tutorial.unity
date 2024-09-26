@@ -15217,7 +15217,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb7d46c67db4f8a4181d4801d389b189, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 203844558}
   respawnPoint: {fileID: 1766256407}
 --- !u!1 &1617253584
 GameObject:
