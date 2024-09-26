@@ -44,6 +44,15 @@ In the end, though, I focused more on parkour instead of adding enemies or visua
 # Scripting Editing Software
 ![image](https://github.com/user-attachments/assets/1789bb97-b77f-46ff-aa53-b6945eb882a6)
 
+# Features
+
+I used [these tutorials](#https://www.youtube.com/watch?v=TYg07K-5ONU&list=PLyHH_4nd7MkI-jgXnEw3nSVzAqeftSSyM) for many of the features in the game. They were helpful, especially for basic movement code, as I was still learning C# and Unity. The tutorials were easy to follow, and I adjusted the code to fit what I needed for the game.
+
+## Movement and Jumping
+
+Movement and jumping were the first things I added to the game. I followed the tutorials closely and didn’t have much trouble. Most of the issues I had were small mistakes like typos, which were easy to fix.
+
+
 
 # Scripts
 
