@@ -41,6 +41,38 @@ In the end, though, I focused more on parkour instead of adding enemies or visua
 - **Levels**: The game has two levels and a tutorial to start with.
 - **Platforms**: Survive and learn about the different types of platforms.
 
+## Developer Documentation
+
+# Sky High
+
+## What I Intended to Create: Sky High
+
+Initially, **Sky High** was meant to be a 2D action game aimed at addressing the social issue of verbal bullying. The concept was to create a platformer where players navigate through levels filled with emotional and psychological challenges, symbolizing the impact of bullying. My goal was to raise awareness about how words can affect someone, turning the game into an emotional journey.
+
+## What I Made: Sky High
+
+As I began working on the game, I realized my original vision was too complex. I decided to scale back and change the direction, focusing more on parkour mechanics rather than addressing social issues or adding enemies.
+
+This game was originally made as a project for an assessment, with the intention of fitting into the "Games for Change" theme. However, the final version shifted to a parkour-focused game where players aim to jump and reach new heights. The objective was to add challenging elements, like falling platforms and tricky jumps that require precision.
+
+In the end, I prioritized fluid parkour gameplay over visual complexity. I didn’t include enemies or extra visual effects like bloom and shadows. Instead, **Sky High** became more of a tutorial-based experience to teach players movement techniques. Had I finished it completely, I would have added those additional features, but it remains a game centered on mastering movement.
+
+### Key Features
+
+- **Character Movement**: Smooth movement mechanics using W, A, and D. W is used for jumping, and A and D for horizontal movement. The game focuses on parkour skills like jumping between platforms.
+  
+- **Falling Platforms**: Added falling platforms to increase the challenge, forcing players to make quick decisions or face falling and having to restart parts of the level.
+
+- **Level Progression**: Players advance by reaching a flag at the end of each level, tying into the parkour theme of climbing higher and aiming for the top.
+
+- **Music**: Created a simple soundtrack using Soundtrap to give the game a sense of excitement, though the focus remained primarily on gameplay mechanics rather than visuals or audio complexity.
+
+## Final Thoughts
+
+**Sky High** is a learning experience focused on mastering movement. It’s about skillful navigation and overcoming obstacles with precision, rather than confronting enemies or relying on complex visual effects.
+
+
+
 # Scripting Editing Software
 ![image](https://github.com/user-attachments/assets/1789bb97-b77f-46ff-aa53-b6945eb882a6)
 
@@ -66,13 +98,6 @@ Falling platforms add an extra level of difficulty and excitement. When the play
 
 # Scripts
 
-
-# Documentation
-
-### User Documentation
-Testing 123
-### Developer Documentation
-A little explination on how I made the game and the skills I aquired.
 
 # Collaboration
 
