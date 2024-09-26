@@ -15,12 +15,26 @@ In the end, though, I focused more on parkour instead of adding enemies or visua
 
 [video link]
 
-# User Control Guide
+## User Control Guide
 
-### Keyboard & Mouse
-A & E to move left and right
+### Keyboard and Mouse
+
+| Action       | Output                         |
+|--------------|---------------------------------|
+| A            | Move Left                      |
+| D            | Move Right                     |
+| S            | Move Down on *some* platforms  |
+| Left Shift   | Dash                           |
+| Space        | Jump                           |
 
 ### Controller
+
+| Action             | Output                         |
+|--------------------|---------------------------------|
+| Left Joystick      | Move Left/Right                |
+| Left Joystick Down | Move Down on *some* platforms  |
+| Y                  | Jump                           |
+| Dash               | *Currently unresponsive*       |
 
 # Scripting Editing Software
 
