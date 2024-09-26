@@ -37,6 +37,8 @@ In the end, though, I focused more on parkour instead of adding enemies or visua
 | Dash               | *Currently unresponsive*       |
 
 # Scripting Editing Software
+![image](https://github.com/user-attachments/assets/5eb8f261-4600-448a-ae75-b5d87ae45fac)
+
 
 # Scripts
 
