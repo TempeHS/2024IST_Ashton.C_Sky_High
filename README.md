@@ -15,7 +15,7 @@ In the end, though, I focused more on parkour instead of adding enemies or visua
 
 [video link]
 
-## User Control Guide
+## User Documentation
 
 ### Keyboard and Mouse
 
@@ -35,6 +35,15 @@ In the end, though, I focused more on parkour instead of adding enemies or visua
 | Left Joystick Down | Move Down on *some* platforms  |
 | Y                  | Jump                           |
 | Dash               | *Currently unresponsive*       |
+
+## Game Objective
+
+- **Levels**: The game has two levels.
+- **Monsters**: Dodge monsters shooting fireballs at you while collecting coins.
+- **Coins**: Collect all the coins while avoiding the green monsters shooting at the player.
+- **Flags**: To move to the next level, you need to touch the flag at the end of the level.
+- **Goal**: Complete both levels by collecting coins and dodging monsters. After collecting everything and reaching the final flag, you will be awarded a win screen.
+
 
 # Scripting Editing Software
 ![image](https://github.com/user-attachments/assets/1789bb97-b77f-46ff-aa53-b6945eb882a6)
