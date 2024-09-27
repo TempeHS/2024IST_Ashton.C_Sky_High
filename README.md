@@ -114,6 +114,22 @@ I used particle effects to present the jumping platforms and give the players an
 - [Main Menu](https://github.com/TempeHS/2024IST_Ashton.C_Sky_High/blob/devv/Pokemon%20Unity%20File/Pokemon%20FINALEE/Assets/Scripts/Menu/MainMenu.cs)
 - [Pause Menu](https://github.com/TempeHS/2024IST_Ashton.C_Sky_High/blob/devv/Pokemon%20Unity%20File/Pokemon%20FINALEE/Assets/Scripts/Menu/MainMenu.cs)
 
+# Screenshots
+
+### Intro
+![image](https://github.com/user-attachments/assets/7f301569-a441-42fa-85bb-c12b06ca56f7)
+
+### Tutorioal
+![image](https://github.com/user-attachments/assets/b294dcae-be1b-4524-ba8f-cdaf24cdf53a)
+
+### Level 1
+![image](https://github.com/user-attachments/assets/8da59231-0e0c-47a8-b2df-767cce4f965b)
+
+### Level 2
+![image](https://github.com/user-attachments/assets/9b07a631-8861-42db-abef-ebd263c8cf2f)
+
+
+
 # Collaboration
 
 Serena Lai Multimedia partner
