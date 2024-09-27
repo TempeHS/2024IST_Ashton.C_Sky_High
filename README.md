@@ -64,16 +64,8 @@ In the end, I prioritized fluid parkour gameplay over visual complexity. I didn�
 
 - **Music**: My partner has made a soundtrack for audio background to give the game a sense of excitement, though the focus remained primarily on gameplay mechanics rather than visuals or audio complexity.
 
-## Final Thoughts
 
-**Sky High** is a learning experience focused on mastering movement. It’s about skillful navigation and overcoming obstacles with precision, rather than confronting enemies or relying on complex visual effects.
-
-
-
-# Scripting Editing Software
-![image](https://github.com/user-attachments/assets/1789bb97-b77f-46ff-aa53-b6945eb882a6)
-
-# Features
+  # Features
 
 I used [these tutorials](https://www.youtube.com/watch?v=TYg07K-5ONU&list=PLyHH_4nd7MkI-jgXnEw3nSVzAqeftSSyM) for many of the features in the game. They were helpful, especially for basic movement code, as I was still learning C# and Unity. The tutorials were easy to follow, and I adjusted the code to fit what I needed for the game.
 
@@ -92,6 +84,16 @@ One way platforms are one of the most frequently used elements in the game. I us
 ### Falling Platforms
 
 Falling platforms add an extra level of difficulty and excitement. When the player steps on these platforms, they fall after a short delay, forcing the player to move quickly and plan their jumps. This mechanic was added to keep the gameplay dynamic and unpredictable, increasing the tension as the player progresses through the levels.
+
+
+# Final Thoughts
+
+**Sky High** is a learning experience focused on mastering movement. It’s about skillful navigation and overcoming obstacles with precision, rather than confronting enemies or relying on complex visual effects.
+
+
+# Scripting Editing Software
+![image](https://github.com/user-attachments/assets/1789bb97-b77f-46ff-aa53-b6945eb882a6)
+
 
 ### Jumping Platforms
 
