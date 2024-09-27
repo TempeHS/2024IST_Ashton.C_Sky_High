@@ -101,18 +101,18 @@ I used particle effects to present the jumping platforms and give the players an
 
 # Scripts
 
-[CountDown Timer](https://github.com/TempeHS/2024IST_Ashton.C_Sky_High/blob/devv/Pokemon%20Unity%20File/Pokemon%20FINALEE/Assets/Scripts/CountdownTimer.cs)
-[Falling Platform](https://github.com/TempeHS/2024IST_Ashton.C_Sky_High/blob/devv/Pokemon%20Unity%20File/Pokemon%20FINALEE/Assets/Scripts/FallingPlatform.cs)
-[Jump Pads](https://github.com/TempeHS/2024IST_Ashton.C_Sky_High/blob/devv/Pokemon%20Unity%20File/Pokemon%20FINALEE/Assets/Scripts/JumpPads.cs)
-[Kill Player](https://github.com/TempeHS/2024IST_Ashton.C_Sky_High/blob/devv/Pokemon%20Unity%20File/Pokemon%20FINALEE/Assets/Scripts/KillPlayer.cs)
-[Level Move](https://github.com/TempeHS/2024IST_Ashton.C_Sky_High/blob/devv/Pokemon%20Unity%20File/Pokemon%20FINALEE/Assets/Scripts/LevelMove.cs)
-[Sign](https://github.com/TempeHS/2024IST_Ashton.C_Sky_High/blob/devv/Pokemon%20Unity%20File/Pokemon%20FINALEE/Assets/Scripts/Sign.cs)
-[Timer](https://github.com/TempeHS/2024IST_Ashton.C_Sky_High/blob/devv/Pokemon%20Unity%20File/Pokemon%20FINALEE/Assets/Scripts/Timer.cs)
-[Camera Follow](https://github.com/TempeHS/2024IST_Ashton.C_Sky_High/blob/devv/Pokemon%20Unity%20File/Pokemon%20FINALEE/Assets/Scripts/Player/CameraFollow.cs)
-[Player Controller](https://github.com/TempeHS/2024IST_Ashton.C_Sky_High/blob/devv/Pokemon%20Unity%20File/Pokemon%20FINALEE/Assets/Scripts/Player/PlayerController.cs)
-[Player One Way Platform](https://github.com/TempeHS/2024IST_Ashton.C_Sky_High/blob/devv/Pokemon%20Unity%20File/Pokemon%20FINALEE/Assets/Scripts/Player/PlayerOneWayPlatform.cs)
-[Main Menu](https://github.com/TempeHS/2024IST_Ashton.C_Sky_High/blob/devv/Pokemon%20Unity%20File/Pokemon%20FINALEE/Assets/Scripts/Menu/MainMenu.cs)
-[Pause Menu](https://github.com/TempeHS/2024IST_Ashton.C_Sky_High/blob/devv/Pokemon%20Unity%20File/Pokemon%20FINALEE/Assets/Scripts/Menu/MainMenu.cs)
+- [CountDown Timer](https://github.com/TempeHS/2024IST_Ashton.C_Sky_High/blob/devv/Pokemon%20Unity%20File/Pokemon%20FINALEE/Assets/Scripts/CountdownTimer.cs)
+- [Falling Platform](https://github.com/TempeHS/2024IST_Ashton.C_Sky_High/blob/devv/Pokemon%20Unity%20File/Pokemon%20FINALEE/Assets/Scripts/FallingPlatform.cs)
+- [Jump Pads](https://github.com/TempeHS/2024IST_Ashton.C_Sky_High/blob/devv/Pokemon%20Unity%20File/Pokemon%20FINALEE/Assets/Scripts/JumpPads.cs)
+- [Kill Player](https://github.com/TempeHS/2024IST_Ashton.C_Sky_High/blob/devv/Pokemon%20Unity%20File/Pokemon%20FINALEE/Assets/Scripts/KillPlayer.cs)
+- [Level Move](https://github.com/TempeHS/2024IST_Ashton.C_Sky_High/blob/devv/Pokemon%20Unity%20File/Pokemon%20FINALEE/Assets/Scripts/LevelMove.cs)
+- [Sign](https://github.com/TempeHS/2024IST_Ashton.C_Sky_High/blob/devv/Pokemon%20Unity%20File/Pokemon%20FINALEE/Assets/Scripts/Sign.cs)
+- [Timer](https://github.com/TempeHS/2024IST_Ashton.C_Sky_High/blob/devv/Pokemon%20Unity%20File/Pokemon%20FINALEE/Assets/Scripts/Timer.cs)
+- [Camera Follow](https://github.com/TempeHS/2024IST_Ashton.C_Sky_High/blob/devv/Pokemon%20Unity%20File/Pokemon%20FINALEE/Assets/Scripts/Player/CameraFollow.cs)
+- [Player Controller](https://github.com/TempeHS/2024IST_Ashton.C_Sky_High/blob/devv/Pokemon%20Unity%20File/Pokemon%20FINALEE/Assets/Scripts/Player/PlayerController.cs)
+- [Player One Way Platform](https://github.com/TempeHS/2024IST_Ashton.C_Sky_High/blob/devv/Pokemon%20Unity%20File/Pokemon%20FINALEE/Assets/Scripts/Player/PlayerOneWayPlatform.cs)
+- [Main Menu](https://github.com/TempeHS/2024IST_Ashton.C_Sky_High/blob/devv/Pokemon%20Unity%20File/Pokemon%20FINALEE/Assets/Scripts/Menu/MainMenu.cs)
+- [Pause Menu](https://github.com/TempeHS/2024IST_Ashton.C_Sky_High/blob/devv/Pokemon%20Unity%20File/Pokemon%20FINALEE/Assets/Scripts/Menu/MainMenu.cs)
 
 # Collaboration
 
