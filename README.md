@@ -41,7 +41,7 @@ In the end, though, I focused more on parkour instead of adding enemies or visua
 - **Levels**: The game has two levels and a tutorial to start with.
 - **Platforms**: Survive and learn about the different types of platforms.
 
-## Developer Documentation
+# Developer Documentation
 
 
 ## What I Intended to Create: Sky High
