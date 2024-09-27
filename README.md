@@ -43,7 +43,6 @@ In the end, though, I focused more on parkour instead of adding enemies or visua
 
 ## Developer Documentation
 
-# Sky High
 
 ## What I Intended to Create: Sky High
 
@@ -60,12 +59,10 @@ In the end, I prioritized fluid parkour gameplay over visual complexity. I didnâ
 ### Key Features
 
 - **Character Movement**: Smooth movement mechanics using W, A, and D. W is used for jumping, and A and D for horizontal movement. The game focuses on parkour skills like jumping between platforms.
-  
-- **Falling Platforms**: Added falling platforms to increase the challenge, forcing players to make quick decisions or face falling and having to restart parts of the level.
 
-- **Level Progression**: Players advance by reaching a flag at the end of each level, tying into the parkour theme of climbing higher and aiming for the top.
+- **Level Progression**: Players advance by going through a portal at the end of each level, tying into the parkour theme of climbing higher and aiming for the top.
 
-- **Music**: Created a simple soundtrack using Soundtrap to give the game a sense of excitement, though the focus remained primarily on gameplay mechanics rather than visuals or audio complexity.
+- **Music**: My partner has made a soundtrack for audio background to give the game a sense of excitement, though the focus remained primarily on gameplay mechanics rather than visuals or audio complexity.
 
 ## Final Thoughts
 
@@ -95,6 +92,10 @@ One way platforms are one of the most frequently used elements in the game. I us
 ### Falling Platforms
 
 Falling platforms add an extra level of difficulty and excitement. When the player steps on these platforms, they fall after a short delay, forcing the player to move quickly and plan their jumps. This mechanic was added to keep the gameplay dynamic and unpredictable, increasing the tension as the player progresses through the levels.
+
+### Jumping Platforms
+
+I used particle effects to present the jumping platforms and give the players an idea of a particle presenting a jump boost.
 
 # Scripts
 
