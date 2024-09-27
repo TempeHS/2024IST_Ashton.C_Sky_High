@@ -85,6 +85,10 @@ One way platforms are one of the most frequently used elements in the game. I us
 
 Falling platforms add an extra level of difficulty and excitement. When the player steps on these platforms, they fall after a short delay, forcing the player to move quickly and plan their jumps. This mechanic was added to keep the gameplay dynamic and unpredictable, increasing the tension as the player progresses through the levels.
 
+### Jumping Platforms
+
+I used particle effects to present the jumping platforms and give the players an idea of a particle presenting a jump boost.
+
 
 # Final Thoughts
 
@@ -94,10 +98,6 @@ Falling platforms add an extra level of difficulty and excitement. When the play
 # Scripting Editing Software
 ![image](https://github.com/user-attachments/assets/1789bb97-b77f-46ff-aa53-b6945eb882a6)
 
-
-### Jumping Platforms
-
-I used particle effects to present the jumping platforms and give the players an idea of a particle presenting a jump boost.
 
 # Scripts
 
