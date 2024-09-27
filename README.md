@@ -9,7 +9,7 @@
 
 This game was originally made as a project for an assessment, meant to fit the "Games for Change" theme, but it didn’t really meet that goal. You play as a character jumping and aiming as high as they can. The plan was to add challenging obstacles like falling platforms and the tough jumps that needed to be made.
 
-In the end, though, I focused more on parkour instead of adding enemies or visual effects like bloom and shadows. The game is mainly about teaching players how to move and play through a tutorial, rather than having complex visuals or enemy encounters. If I had finished it, I would have added those things, but it stayed as a parkour-focused game with a learning experience.
+In the end, though, I focused more on parkour instead of adding enemies or visual effects. The game is mainly about teaching players how to move and play through a tutorial, rather than having complex visuals or thinking of routes to go through. If I had finished it, I would have added those things, but it stayed as a parkour-focused game with a learning experience.
 
 # Walkthrough
 
