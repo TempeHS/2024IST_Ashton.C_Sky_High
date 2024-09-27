@@ -13,7 +13,7 @@ In the end, though, I focused more on parkour instead of adding enemies or visua
 
 # Walkthrough
 
-[video link]
+[https://drive.google.com/file/d/1n7Q7Nk2C2fnhriV9AhJHY96EnAtuHl0d/view?usp=drive_link]
 
 ## User Documentation
 
