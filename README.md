@@ -44,11 +44,11 @@ In the end, though, I focused more on parkour instead of adding enemies or visua
 # Developer Documentation
 
 
-## What I Intended to Create: Sky High
+### What I Intended to Create: Sky High
 
 Initially, **Sky High** was meant to be a 2D action game aimed at addressing the social issue of verbal bullying. The concept was to create a platformer where players navigate through levels filled with emotional and psychological challenges, symbolizing the impact of bullying. My goal was to raise awareness about how words can affect someone, turning the game into an emotional journey.
 
-## What I Made: Sky High
+### What I Made: Sky High
 
 As I began working on the game, I realized my original vision was too complex. I decided to scale back and change the direction, focusing more on parkour mechanics rather than addressing social issues or adding enemies.
 
